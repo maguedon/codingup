@@ -42,3 +42,14 @@ word.lower()
 # Position d'une lettre dans l'alphabet
 import string
 string.ascii_lowercase.index(char) + 1
+
+# Pour les dessins utiliser turtle
+import turtle
+
+turtle.ht()
+turtle.down()
+
+turtle.setworldcoordinates(-1, -1, 2000, 2000)
+
+turtle.goto(x, y)
+
