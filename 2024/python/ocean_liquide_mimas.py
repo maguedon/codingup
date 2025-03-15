@@ -33,7 +33,7 @@ def getMin(tableau):
     return [xMin, yMin]
 
 
-r = requests.get("https://codingup.univ-poitiers.fr/outthere/defis/C24_Mimas/get/Jollymah/5f718", verify=True)
+r = requests.get("https://pydefis.callicode.fr/defis/C24_Mimas/get/JollyMah/34649", verify=True)
 print(r) # Pour contrôle
 data = r.json()
 print(data) # Pour contrôle
@@ -48,7 +48,7 @@ for i in range(1, 11):
 
 print(reponse)
 
-r = requests.post("https://codingup.univ-poitiers.fr/outthere/defis/C24_Mimas/post/Jollymah/5f718", json=reponse, verify=True)
+r = requests.post("https://pydefis.callicode.fr/defis/C24_Mimas/post/JollyMah/34649", json=reponse, verify=True)
 print(r) # Pour contrôle
 data = r.json()
 print(data) # Pour contrôle

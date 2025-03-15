@@ -97,7 +97,7 @@ def traitement(imagePath):
     return resultat
 
 
-r = requests.get("https://codingup.univ-poitiers.fr/outthere/defis/C24_CodeBarre1/get/Jollymah/77891", verify=True)
+r = requests.get("https://pydefis.callicode.fr/defis/C24_CodeBarre1/get/JollyMah/667c8", verify=True)
 data = r.json()
 
 reponse = {'signature': data['signature']}
@@ -111,7 +111,7 @@ for x in range(1,11):
 
 print(reponse)
 
-r = requests.post("https://codingup.univ-poitiers.fr/outthere/defis/C24_CodeBarre1/post/Jollymah/77891", json=reponse, verify=True)
+r = requests.post("https://pydefis.callicode.fr/defis/C24_CodeBarre1/post/JollyMah/667c8", json=reponse, verify=True)
 print(r) # Pour contrôle
 data = r.json()
 print(data) # Pour contrôle
