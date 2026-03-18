@@ -23,6 +23,6 @@ public class Main {
     * */
 
     public static void main(String[] args) throws IOException {
-        DetectionAsteroide.executer();
+        JourDeLaServiette.executer();
     }
 }
